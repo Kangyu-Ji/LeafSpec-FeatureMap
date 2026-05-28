@@ -19,6 +19,8 @@ This repository focuses on transforming raw spectral measurements into **interpr
   - **Normalized Difference Index (ND)**  
 - Enables visualization of intra-leaf heterogeneity
 
+![alt text](https://github.com/Kangyu-Ji/LeafSpec-FeatureMap/blob/main/showcase/Fig1.png?raw=true)
+
 
 ### 2. Feature Generation
 - Compute statistical summaries over spatial maps:
@@ -33,6 +35,7 @@ This repository focuses on transforming raw spectral measurements into **interpr
 - **ROC curve analysis**
   - Area Under Curve (AUC)
   - Threshold-based evaluation
+![alt text](https://github.com/Kangyu-Ji/LeafSpec-FeatureMap/blob/main/showcase/Fig2.png?raw=true)
 
 
 ## Repository Structure
