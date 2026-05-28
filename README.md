@@ -45,7 +45,6 @@ leafspec-analytics/
 └── README.md
 ```
 
-## Getting Started
 
 ## Software dependencies
 - Python >=3.9
