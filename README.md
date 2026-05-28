@@ -57,6 +57,7 @@ leafspec-analytics/
 
 ## Usage
 - Install required dependencies  
+- Download the demo dataset (available [here](https://purdue0-my.sharepoint.com/:u:/g/personal/ji275_purdue_edu/IQBzyqARUSgQQZZXTOaYYuKfAXSM0pdcU6WM-gIzaV9n62Q?e=DqVtoq))
 - Place the dataset into the `dataset/` directory (see notebook for details)  
 - Run the Jupyter notebook `FeatureMap.ipynb`
 
