@@ -1,79 +1,39 @@
 # LeafSpec-Analytics
 
-**Spatial Feature Mapping and Statistical Inference for Hyperspectral Leaf Transmittance Images**
+**Spatial Feature Mapping and Statistical Inference for Hyperspectral Leaf Transmittance Image**
 
----
 
 ## Overview
 
 **LeafSpec-Analytics** is a data analysis pipeline built on the LeafSpec platform for processing **hyperspectral leaf transmittance data**. It enables spatially-resolved feature extraction, statistical analysis, and classification of plant responses to chemical treatments.
 
-This repository focuses on transforming raw spectral measurements into **interpretable feature maps and quantitative biomarkers**, supporting downstream decision-making and scientific discovery.
+This repository focuses on transforming raw spectral measurements into **interpretable feature maps and quantitative indexes**.
 
----
 
 ## Key Features
 
 ### 1. Spatially-Resolved Feature Mapping
 - Generate per-pixel feature maps from hyperspectral transmittance data
 - Supported features:
-  - **Single-band transmittance (T)**
+  - **Single-band Transmittance (T)**
   - **Normalized Difference Index (ND)**  
-    \[
-    ND = \frac{T_1 - T_2}{T_1 + T_2}
-    \]
 - Enables visualization of intra-leaf heterogeneity
 
----
 
-### 2. Feature Aggregation
+### 2. Feature Generation
 - Compute statistical summaries over spatial maps:
   - Mean
-  - Standard deviation
-- Converts high-dimensional spectral data into compact descriptors
+  - Variance
+- Converts high-dimensional spectral data into compact spectral descriptors
 
----
 
-### 3. Classification & Discrimination
+### 3. Classification
 - Evaluate separability between treatment groups
-- Supports:
-  - Binary and multi-class classification
-  - Feature-based discrimination
-
----
-
-### 4. Statistical Inference
 - **t-test** for group comparison
 - **ROC curve analysis**
   - Area Under Curve (AUC)
   - Threshold-based evaluation
-
----
-
-## Pipeline
-
-Hyperspectral Transmittance Data
-↓
-Spectral Feature Construction
-↓
-Spatial Feature Mapping
-↓
-Feature Aggregation (mean / std)
-↓
-Statistical Analysis (t-test, ROC)
-↓
-Classification & Interpretation
-
----
-
-## Use Cases
-
-- Plant response analysis under chemical treatments
-- Stress detection (e.g., toxicity, nutrient imbalance)
-- Spectral biomarker discovery
-- High-throughput phenotyping
-
----
+  
 
 ## Repository Structure
 
@@ -84,7 +44,6 @@ leafspec-analytics/
 ├── FeatureMap.ipynb # Main execution notebook
 └── README.md
 
----
 
 ## Getting Started
 
