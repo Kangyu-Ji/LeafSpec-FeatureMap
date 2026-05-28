@@ -38,23 +38,25 @@ This repository focuses on transforming raw spectral measurements into **interpr
 ## Repository Structure
 ```
 leafspec-analytics/
-├── dataset/        # Raw hyperspectral input datasets
-├── processed/      # Preprocessed data, including masked and spectrally corrected hyperspectral images
-├── results/        # Output figures and analysis results
-├── FeatureMap.ipynb # Main execution notebook
+├── dataset/            # Raw hyperspectral data
+├── processed/          # Preprocessed data, spectrally corrected hyperspectral image + leaf mask
+├── results/            # Output figures and analysis results
+├── FeatureMap.ipynb    # Main execution notebook
 └── README.md
 ```
 
 ## Getting Started
 
 ## Software dependencies
-- scipy https://scipy.org/ (any version should work)
-- sklearn https://scikit-learn.org/ (any version should work)
-- scikit-image https://scikit-image.org/ (any version should work)
+- Python >=3.9
+- scipy https://scipy.org/
+- sklearn https://scikit-learn.org/
+- scikit-image https://scikit-image.org/
 
 ## Usage
-- Install the dependencies
-- Run the jupyter notebook FeatureMap.ipynb
+- Install required dependencies  
+- Place the dataset into the `dataset/` directory (see notebook for details)  
+- Run the Jupyter notebook `FeatureMap.ipynb`
 
 ## About us
 - Dr. Kangyu Ji https://scholar.google.com/citations?user=Oej20eMAAAAJ
