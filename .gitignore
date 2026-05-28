@@ -1,6 +1,8 @@
 *.ipynb_checkpoints
-!.gitkeep
+
 dataset/*
 processed/*/*.npy
 processed/*/*.png
 results/*
+
+!.gitkeep
