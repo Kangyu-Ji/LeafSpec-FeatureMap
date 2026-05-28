@@ -33,17 +33,17 @@ This repository focuses on transforming raw spectral measurements into **interpr
 - **ROC curve analysis**
   - Area Under Curve (AUC)
   - Threshold-based evaluation
-  
+
 
 ## Repository Structure
-
+```
 leafspec-analytics/
 ├── dataset/        # Raw hyperspectral input datasets
 ├── processed/      # Preprocessed data, including masked and spectrally corrected hyperspectral images
 ├── results/        # Output figures and analysis results
 ├── FeatureMap.ipynb # Main execution notebook
 └── README.md
-
+```
 
 ## Getting Started
 
