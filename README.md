@@ -1,11 +1,11 @@
-# LeafSpec-Analytics
+# LeafSpec-FeatureMap
 
 **Spatial Feature Mapping and Statistical Inference for Hyperspectral Leaf Transmittance Image**
 
 
 ## Overview
 
-**LeafSpec-Analytics** is a data analysis pipeline built on the LeafSpec platform for processing **hyperspectral leaf transmittance data**. It enables spatially-resolved feature extraction, statistical analysis, and classification of plant responses to chemical treatments.
+**LeafSpec-FeatureMap** is a data analysis pipeline built on the LeafSpec platform for processing **hyperspectral leaf transmittance data**. It enables spatially-resolved feature extraction, statistical analysis, and classification of plant responses to chemical treatments.
 
 This repository focuses on transforming raw spectral measurements into **interpretable feature maps and quantitative indexes**.
 
